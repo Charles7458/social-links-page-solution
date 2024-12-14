@@ -39,13 +39,13 @@ img {
     font-size: 1.2rem; 
 }
 
-.container h3{
+.place {
     color: hsl(75,93.6%,56.9%);
     margin-bottom:1.5rem;
     font-size: 0.7rem;
 }
 
-.container p {
+.desc {
     color: white;
     margin-bottom: 0.9rem;
     font-size: 0.75rem;
