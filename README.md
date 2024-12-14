@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://charles7458.github.io/social-links-page-solution/)
+- Live Site URL: (https://charles7458.github.io/social-links-page-solution)
 
 ## My process
     I wrote the raw html structure and then gave background-color to everything.
