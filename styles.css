@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: "Inter" , sans-serif;
+}
+
+.container {
+    background-color: hsl(0,0%,12%);
+    height: 30rem;
+    width:  18rem;
+    border-radius:1rem;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    text-align: center;
+}
+
+
+.pfp {
+    margin: 1.5rem 0rem 1rem 0rem;
+}
+img {
+    height: 4.5rem;
+    border-radius: 10rem;
+}
+
+.container h1{
+    color: white;
+    margin: 0rem 0rem 0.5rem 0rem;
+    font-size: 1.2rem; 
+}
+
+.container h3{
+    color: hsl(75,93.6%,56.9%);
+    margin-bottom:1.5rem;
+    font-size: 0.7rem;
+}
+
+.container p {
+    color: white;
+    margin-bottom: 0.9rem;
+    font-size: 0.75rem;
+}
+
+button {
+    padding: 0.7rem 2rem;
+    margin: 0.4rem;
+    width: 15rem;
+    color: white;
+    background-color: hsl(0,0%,20%);
+    border: none;
+    border-radius: 0.4rem;
+    /* font-size: 2.2rem; */
+    font-weight:bold;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(75,93.6%,56.9%);
+    color:hsl(0, 0%, 8%);
+}
+
+.buttons {
+    list-style-type: none;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
+.attribution a:hover {
+    text-decoration: underline;
+}
